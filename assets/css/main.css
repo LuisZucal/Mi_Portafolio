@@ -1684,12 +1684,12 @@ input, select, textarea {
 /* Estilos generales del carrusel */
 .carousel-container {
     position: relative;
-    width: 80%;
+    width: 100%;
     max-width: 100%;
     margin: auto;
     overflow: hidden;
-    background-color: #ffffff2f; /* Fondo opcional para que se vea más limpio */
-    border-radius: 10px;
+    background-color: #00000088; /* Fondo opcional para que se vea más limpio */
+    border-radius: 05px;
 }
 
 /* Contenedor de las imágenes */
@@ -1701,7 +1701,7 @@ input, select, textarea {
 /* Imágenes del carrusel con tamaño uniforme */
 .carousel-slide img {
     width: 100%;         /* Ajusta la imagen al ancho del contenedor */
-    height: 400px;       /* Define una altura uniforme */
+    height: 350px;       /* Define una altura uniforme */
     object-fit: contain;  /* Mantiene la proporción sin recortar */
     flex-shrink: 0;
     border-radius: 3px;  /* Esquinas redondeadas para un mejor estilo */
